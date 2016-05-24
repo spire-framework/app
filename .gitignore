@@ -1,0 +1,5 @@
+# Application directories
+vendor/
+
+# Hidden OS files
+.DS_Store

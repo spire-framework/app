@@ -1,0 +1,13 @@
+{
+    "name": "spire-framework/app",
+    "description": "HMVC Framework for PHP7",
+    "keywords": ["framework", "hmvc"],
+    "type": "project",
+    "require": {
+        "php": "^7.0",
+        "spire-framework/spire": "@dev"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
