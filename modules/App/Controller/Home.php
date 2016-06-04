@@ -6,7 +6,7 @@ class Home extends \Controller
 
     public function home()
     {
-        var_dump('home');
+        
     }
 
 }
