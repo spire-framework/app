@@ -2,4 +2,11 @@
 namespace Modules\App\Controller;
 
 class Home extends \Controller
-{}
+{
+
+    public function home()
+    {
+        var_dump('home');
+    }
+
+}
