@@ -3,6 +3,10 @@
 // Display PHP errors.
 ini_set('display_errors', 1);
 
+// Load constants and functions.
+require_once 'constants.php';
+require_once 'functions.php';
+
 // Register the composer autoloader.
 require_once ROOTDIR . 'vendor/autoload.php';
 
@@ -16,3 +20,6 @@ require_once 'Psr4Autoloader.php';
 $autoloader = new Psr4Autoloader;
 $autoloader->register();
 $autoloader->addNamespace('Modules', ROOTDIR . 'modules');
+
+// Initialize Spire.
+Spire\Routing\Router::initialize();
