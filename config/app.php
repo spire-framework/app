@@ -11,7 +11,8 @@ return [
      * Class aliases to map to the base of the namespace tree.
      */
     'aliases'   => [
-        'Controller'    => '\\Spire\\Routing\\Controller'
+        'Controller'    => '\\Spire\\Routing\\Controller',
+        'Route'         => '\\Spire\\Routing\\Route'
     ]
 
 ];
