@@ -19,6 +19,12 @@ function path(string $section, string $path = ''): string
             return ROOTDIR.FOLDERS['modules'].$path;
         case 'config':
             return ROOTDIR.FOLDERS['config'].$path;
+        case 'templates':
+            return ROOTDIR.FOLDERS['templates'].$path;
+        case 'layouts':
+            return path('templates', FOLDERS['layouts']).$path;
+        case 'components':
+            return path('templates', FOLDERS['components']).$path;
         default:
             return ROOTDIR.$path;
     }

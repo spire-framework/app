@@ -4,6 +4,9 @@
 
 // Folder names.
 define('FOLDERS', [
-    'config'    => 'config',
-    'modules'   => 'modules'
+    'components'    => 'components',
+    'config'        => 'config',
+    'modules'       => 'modules',
+    'layouts'       => 'layouts',
+    'templates'     => 'templates'
 ]);
