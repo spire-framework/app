@@ -11,8 +11,11 @@ return [
      * Class aliases to map to the base of the namespace tree.
      */
     'aliases'   => [
+        'Component'     => '\\Spire\\Template\\Component',
         'Controller'    => '\\Spire\\Routing\\Controller',
-        'Route'         => '\\Spire\\Routing\\Route'
+        'Layout'        => '\\Spire\\Template\\Layout',
+        'Route'         => '\\Spire\\Routing\\Route',
+        'View'          => '\\Spire\\Template\\View'
     ]
 
 ];
