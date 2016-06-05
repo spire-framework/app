@@ -25,6 +25,6 @@ return [
     /**
      * Database driver.
      */
-    'driver'    => ''
+    'driver'    => 'mysql'
 
 ];
