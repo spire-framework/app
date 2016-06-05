@@ -2,5 +2,5 @@
 
 Route::get('', [
     'controller'    => 'Home',
-    'action'        => 'home'
+    'action'        => 'welcome'
 ]);

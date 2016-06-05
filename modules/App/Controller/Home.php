@@ -6,9 +6,9 @@ use \View;
 class Home extends \Controller
 {
 
-    public function home()
+    public function welcome()
     {
-        return View::make('home');
+        return View::make('welcome');
     }
 
 }

@@ -1,0 +1,11 @@
+body {
+    background-color: #2980b9;
+    color: #fff;
+    font-family: 'Courgette', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 20%;
+    text-align: center;
+}
