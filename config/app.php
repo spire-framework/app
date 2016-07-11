@@ -14,7 +14,7 @@ return [
         'Component'     => '\\Spire\\Template\\Component',
         'Controller'    => '\\Spire\\Routing\\Controller',
         'Layout'        => '\\Spire\\Template\\Layout',
-        'Query'         => '\\Spire\\Database\\Query',
+        'Query'         => '\\Spire\\Orm\\Query',
         'Route'         => '\\Spire\\Routing\\Route',
         'View'          => '\\Spire\\Template\\View'
     ]
