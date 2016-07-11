@@ -20,6 +20,3 @@ require_once 'Psr4Autoloader.php';
 $autoloader = new Psr4Autoloader;
 $autoloader->register();
 $autoloader->addNamespace('Modules', ROOTDIR . 'modules');
-
-// Initialize Spire.
-Spire\Routing\Router::initialize();
